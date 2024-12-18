@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Camera` API and attempting to access the camera's preview before it's fully initialized.  This often manifests as a blank screen or a crash. The root cause is an asynchronous operation (camera initialization) being accessed synchronously.
